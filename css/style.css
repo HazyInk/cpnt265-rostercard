@@ -1,0 +1,70 @@
+body {
+  background-color: #9e98b5;
+}
+
+.button {
+  background-color: #9ba5ff;
+  color: #fffde5;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #4552c6;
+  color: #9ba5ff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+article {
+  color: #9ba5ff;
+
+  margin-top: 10rem;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  font-family: 'Afacad', sans-serif;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+svg {
+  fill: #9ba5ff;
+  padding-top: 1rem;
+}
+
+svg:hover {
+  fill: #4552c6;
+}
+
+/* The actual card customization */
+
+.card {
+  border-radius: 15px;
+  padding: 1rem;
+  max-width: 300px;
+
+  box-shadow: 0 4px 20px 0 rgba(60, 44, 79, 0.378);
+  background-color: #f6f7ff;
+}
+
+/* The tag that makes the card clickable */
+
+a {
+  text-decoration: none;
+
+  color: #514e73;
+}
+
+/* Image & hover state */
+
+img {
+  border-radius: 15px;
+  width: 250px;
+
+  opacity: 0.87;
+}
